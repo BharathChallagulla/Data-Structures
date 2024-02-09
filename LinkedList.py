@@ -124,31 +124,3 @@ class LinkedList:
         while temp is not None:
             print(temp.value)
             temp = temp.next
-
-
-my_linked_list = LinkedList(1)
-my_linked_list.append(2)
-my_linked_list.append(3)
-my_linked_list.append(4)
-
-
-# print('pop: ', my_linked_list.pop().value)
-
-# my_linked_list.prepend(0)
-
-# print('pop_first: ',my_linked_list.pop_first().value)
-
-# print('get: ',my_linked_list.get(0).value)
-
-# my_linked_list.set_value(1, 4)
-
-# my_linked_list.set_value(1, 2)
-
-# my_linked_list.remove(2)
-
-print('---------------')
-my_linked_list.print_list()
-
-my_linked_list.reverse()
-print('after reverse---------------')
-my_linked_list.print_list()
